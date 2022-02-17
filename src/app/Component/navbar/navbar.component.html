@@ -1,0 +1,48 @@
+<div class="row">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav">
+                    <i class="fa fa-shopping-cart" style="font-size:24px"></i>
+                    <span class="navbar-brand mb-0 h1">eCart</span>
+
+                    <li class="nav-item">
+                        <div *ngIf="!data.login.value.loggedIn; else loggedin">
+                            <a class="nav-link" routerLink="/login">Login</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <ng-template #loggedin>
+                            <a routerLink="/login">{{data.login.value.Name}}</a>
+                        </ng-template>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link" routerLink="/home">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/mobiles">Mobiles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/login" (click)="logout()">Log out</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-shopping-cart" style="font-size:36px;">
+                        <a routerLink="/cart">cart {{cartCount}}</a></i>
+                    </li>
+
+                    <input class="form-control" [(ngModel)]="searchWord" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" routerLink="/mobiles" type="submit" (click)="search()">Search</button>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>

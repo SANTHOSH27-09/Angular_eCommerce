@@ -1,0 +1,71 @@
+[{
+        "productImageSrc": "./assets/images/mobile1.jpeg",
+        "productName": "Realme Narzo 50A (Oxygen Blue, 64 GB)  (4 GB RAM)",
+        "price": 11000,
+        "productDes": " 4 GB RAM | 64 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 8MP Rear Camera | 5MP Front Camera 5000 mAh Battery Octa-core Processor",
+        "quantity": 1
+    },
+    {
+        "productImageSrc": "./assets/images/mobile2.jpeg",
+        "productName": "Samsung (sky Blue, 128 GB) (4 GB RAM)",
+        "price": 10000,
+        "productDes": " 4 GB RAM | 128 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 8MP Rear Camera | 5MP Front Camera 4000 mAh Battery Octa-core Processor",
+        "quantity": 1
+    },
+    {
+        "productImageSrc": "./assets/images/mobile3.jpeg",
+        "productName": "POCO C31 (Royal Blue, 64 GB) (4 GB RAM)",
+        "price": 10500,
+        "productDes": " 4 GB RAM | 64 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 8MP Rear Camera | 5MP Front Camera 4800 mAh Battery Octa-core Processor",
+        "quantity": 1
+    },
+    {
+        "productImageSrc": "./assets/images/mobile4.jpeg",
+        "productName": "Redmi 6 (Royal Blue, 64 GB) (4 GB RAM)",
+        "price": 11999,
+        "productDes": " 4 GB RAM | 64 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 8MP Rear Camera | 5MP Front Camera 6000 mAh Battery Octa-core Processor",
+        "quantity": 1
+    },
+    {
+        "productImageSrc": "./assets/images/mobile5.jpeg",
+        "productName": "Realme 8i (Royal Blue, 64 GB) (4 GB RAM)",
+        "price": 19000,
+        "productDes": " 4 GB RAM | 64 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 8MP Rear Camera | 5MP Front Camera 5000 mAh Battery Octa-core Processor",
+        "quantity": 1
+    },
+    {
+        "productImageSrc": "./assets/images/mobile6.jpeg",
+        "productName": "Realme 9i (Royal Blue, 64 GB) (4 GB RAM)",
+        "price": 21000,
+        "productDes": " 4 GB RAM | 64 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 8MP Rear Camera | 5MP Front Camera 3000 mAh Battery Octa-core Processor",
+        "quantity": 1
+    },
+    {
+        "productImageSrc": "./assets/images/mobile7.jpeg",
+        "productName": "POCO (White, 64 GB) (4 GB RAM)",
+        "price": 15000,
+        "productDes": " 4 GB RAM | 64 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 8MP Rear Camera | 5MP Front Camera 3000 mAh Battery Octa-core Processor",
+        "quantity": 1
+    },
+    {
+        "productImageSrc": "./assets/images/mobile8.jpeg",
+        "productName": "POCO C31 (Royal Blue, 64 GB) (4 GB RAM)",
+        "price": 15999,
+        "productDes": " 4 GB RAM | 64 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 8MP Rear Camera | 5MP Front Camera 4000 mAh Battery Octa-core Processor",
+        "quantity": 1
+    },
+    {
+        "productImageSrc": "./assets/images/mobile9.jpeg",
+        "productName": "Redmi 9i (Black 64 GB) (4 GB RAM)",
+        "price": 17000,
+        "productDes": " 4 GB RAM | 64 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 8MP Rear Camera | 5MP Front Camera 4500 mAh Battery Octa-core Processor",
+        "quantity": 1
+    },
+    {
+        "productImageSrc": "./assets/images/mobile10.jpeg",
+        "productName": "Realme C21Y (Cross Black, 32 GB)  (3 GB RAM)",
+        "price": 14000,
+        "productDes": " 3 GB RAM | 32 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 8MP Rear Camera | 5MP Front Camera 3000 mAh Battery Octa-core Processor",
+        "quantity": 1
+    }
+]

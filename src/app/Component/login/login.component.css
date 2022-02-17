@@ -1,0 +1,21 @@
+.card-header-customStyle {
+    text-align: center;
+    font-size: 15px;
+    background-color: rgba(179, 182, 183);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.card-body-customStyle {
+    background-color: rgba(40, 116, 166);
+    box-shadow: 5px 10px;
+}
+
+.danger {
+    color: rgb(208, 211, 212);
+}
+
+.container {
+    width: 500px;
+    padding-top: 50px;
+}

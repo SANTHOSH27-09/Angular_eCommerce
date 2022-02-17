@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="card" style="max-width:100%;">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-2">
+                <img src="{{config.productImageSrc}}" />
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-5">
+                <a>
+                    <h3><b>{{config.productName}}</b></h3>
+                </a> <br>
+                <h3>{{config.productDes}}</h3>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-2">
+                <h4>Price:₹{{config.price}}/-</h4>
+                {{config.offer}}
+            </div>
+            <div class="col-6 col-sm-6 col-md-3">
+                <div class="card-body">
+                    <a class="btn btn-warning">Buy now</a><br>
+                    <a class="btn btn-primary">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

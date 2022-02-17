@@ -1,0 +1,43 @@
+<div class="container">
+    <div *ngIf="!data.login.value.loggedIn; else loggedin">
+
+        <div class="card card-primary">
+
+            <div class="card-header card-header-customStyle">LOGIN</div>
+
+            <div class="card-body card-body-customStyle ">
+
+                <form class="form" [formGroup]="loginForm" (ngSubmit)="login()">
+
+                    <div class="form-group">
+                        <label>User Name:</label>
+                        <input type="text" class="form-control" formControlName="userName" placeholder="Enter User Name..">
+                        <span class="danger" *ngIf="loginFormControl.userName.touched  && loginFormControl.userName.errors?.required">
+                        User Name is required
+                    </span>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Password:</label>
+                        <input type="password" class="form-control" formControlName="userPassword" placeholder="Enter Password..">
+                        <span class="danger" *ngIf="loginFormControl.userPassword.touched  && loginFormControl.userPassword.errors?.required">
+                        Password is required
+                    </span>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-6 col-sm-2 col-md-2">
+                            <button class="btn btn-success">login</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <ng-template #loggedin>
+        <h1>Welcome {{data.login.value.Name}}!</h1>
+    </ng-template>
+
+</div>

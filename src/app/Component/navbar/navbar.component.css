@@ -1,0 +1,60 @@
+.btn {
+    padding: 10px 10px;
+}
+
+.btn:hover {
+    background-color: rgb(67, 148, 151);
+    display: inline-block;
+}
+
+.input {
+    padding: 10px 10px;
+}
+
+#table {
+    padding: 10px 10x;
+    padding-right: 10px;
+}
+
+ul {
+    float: left;
+    list-style-type: none;
+    padding: 25px 25px;
+    width: 100%;
+    background-color: rgb(51, 153, 255);
+    box-shadow: 5px 10px;
+}
+
+
+/* ul li {
+    display: inline-block;
+} */
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    font-size: 20px;
+    font-family: Franklin Gothic Medium;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: rgb(51, 153, 255)
+}
+
+ul li.active {
+    background-color: #fff;
+    color: rgb(255, 14, 14);
+}
+
+input {
+    width: 200px;
+    transition: width 0.25s ease-in;
+    float: right;
+}
+
+input:focus {
+    width: 300px;
+}

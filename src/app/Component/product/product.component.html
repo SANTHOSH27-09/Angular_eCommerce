@@ -1,0 +1,37 @@
+<div class="container">
+    <div *ngFor="let data of config let i=index">
+        <div class="card" style="max-width:100%;">
+
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-2">
+                    <img src="{{config[i].productImageSrc}}" />
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-5">
+                    <a routerLink="/View" (click)="view(i)">
+                        <h3><b>{{config[i].productName}}</b></h3>
+                    </a> <br>
+                    <h3>{{config[i].productDes}}</h3>
+                </div>
+
+                <div class="col-6 col-sm-6 col-md-2">
+                    <h4>Price:₹{{config[i].price}}/-</h4>
+                    {{config[i].offer}}
+                </div>
+                <div class="col-6 col-sm-6 col-md-3">
+                    <div class="card-body">
+                        <a class="btn btn-warning" routerLink="/view" (click)='view(i)'>Buy now</a><br>
+                        <a class="btn btn-primary" (click)='cart(i)'>Add To Cart</a><br>
+                        <a class="btn btn-primary text-white" (click)="quantityDecrement(i)" role="button">
+                            <i class="fa fa-minus" style="font-size:15px"></i>
+                        </a>
+                        {{config[i].quantity}}
+                        <a class="btn btn-primary text-white" (click)="quantityIncrement(i)" role="button">
+                            <i class="fa fa-plus" style="font-size:15px"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
